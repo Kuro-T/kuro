@@ -30,12 +30,15 @@ h4{
   padding:50px 0;
   color:white;
   float:none;
+  width:cover;
+ 
 }
 
 .count p{
   background-color:black;
   width:11vw;
-  margin:6vh auto
+  margin:6vh auto;
+  float:none;
 }
 .free{
   background-color:black;
@@ -45,11 +48,11 @@ h4{
   position:relative;
   left:0;
   top:-50px;
-  width:cover;
+  width:100%;
   opacity:0.7;
   z-index:4;
   font-family:fantasy;
-  width:100%;
+
 }
 
 textarea{
