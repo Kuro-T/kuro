@@ -2,6 +2,11 @@ body{
   font-size:62.5%;
 }
 
+.title{
+  font-size:2vw;
+  padding:3vh 5vh;
+}
+
 h1{
   font-size:3vw;
 }
@@ -22,7 +27,7 @@ h4{
   background-image: url(https://tabizine.jp/wp-content/uploads/2015/12/53351-04.jpg);
   background-size:100%;
   background-repeat:no-repeat;
-  padding:50px;
+  padding:50px 0;
   color:white;
   float:none;
 }
@@ -32,10 +37,19 @@ h4{
   width:11vw;
   margin:6vh auto
 }
-header{
+.free{
   background-color:black;
   color:white;
-  font-size:4vw;
+  font-size:2.3vw;
+  padding:1vh;
+  position:relative;
+  left:0;
+  top:-50px;
+  width:cover;
+  opacity:0.7;
+  z-index:4;
+  font-family:fantasy;
+  width:100%;
 }
 
 textarea{
