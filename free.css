@@ -1,4 +1,18 @@
+.count{
+  background-image: url(https://tabizine.jp/wp-content/uploads/2015/12/53351-04.jpg);
+  background-size:100% ;
+  background-repeat:no-repeat;
+  padding:50px;
+  color:white;
+}
+
 header{
+  background-color:black;
+  color:white;
+  font-size:30px;
+}
+
+.main{
   text-align:center;
 }
 
