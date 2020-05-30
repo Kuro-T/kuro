@@ -27,6 +27,11 @@ h4{
   float:none;
 }
 
+.count p{
+  background-color:black;
+  width:6vw;
+  margin:6vh auto
+}
 header{
   background-color:black;
   color:white;
