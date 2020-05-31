@@ -43,6 +43,11 @@ h4{
     font-family:'Segoe UI Black','Arial Black','Arial',sans-serif;
     font-weight:bold
   }
+
+
+  .count{
+    background-size: cover;
+  }
   
   h1{
     font-size:6vw;
@@ -66,7 +71,7 @@ h4{
   }
 .count{
   background-image: url(https://tabizine.jp/wp-content/uploads/2015/12/53351-04.jpg);
-  background-size:100%;
+  background-size:100% ;
   background-repeat:no-repeat;
   padding:50px 0;
   color:white;
