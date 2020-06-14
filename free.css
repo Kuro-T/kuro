@@ -102,8 +102,8 @@ h4{
   }
 
   textarea{
-    width: 30%;
-    height:15vh;
+    width: 70%;
+    height:10%;
   }
 
   .dish{
@@ -115,9 +115,7 @@ h4{
     background-color:#FFFAF0;
   }
 
-  .count{
-    height:55%;
-  }
+ 
   
   h1{
     font-size:6vw;
