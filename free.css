@@ -85,7 +85,7 @@ h4{
 
   .title{
     font-size:6vw;
-    padding:5vh 7vh;
+    padding:2vh 4vh;
     font-family:'Segoe UI Black','Arial Black','Arial',sans-serif;
     font-weight:bold
   }
@@ -99,16 +99,19 @@ h4{
     float:none;
     width:cover;
     height:100vh;
+    display:relative;
       
+  }
+
+
+  .sumaho{
+ 
+    top:-10vh;
   }
 
   textarea{
     width: 70%;
     height:10vh;
-  }
-  
-  .moji{
-  display:inline-block;
   }
 
   .dish{
