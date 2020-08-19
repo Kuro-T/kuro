@@ -1,44 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KUROSAWA's site</title>
-  <link rel="stylesheet" href="site.css">
-  <script src="sample.js"></script>
+  <link rel="stylesheet" type="text/css" href="free.css">
+  <script type="text/javascript" src="free.js"></script>
+  <title>portfolio</title>
 </head>
-<body> 
-  <script>
-    function sukinahito(){
-        var name=prompt("あなたの名前は？")
+<body>
+  <div class="title">KUROSAWA</div>
+  <div class="bio"><button onclick="location.href='bio.html'">生物</button></div>
 
-
-        if(name.length==2){
-          location.href="yui.html";
-        }else if(name.length==3){
-          location.href="brazil.html";
-        }else if(name.length==4){
-          location.href="aja.html";
-        }else if(name.length==5){
-          location.href="hirose.html";
-        }else if(name.length==6){
-          location.href="tani.html";
-        }else{
-          location.href="aina.html";
-        }}
-  </script>
-  <header>
-    <img src="header.jpg" class="headimg">
-    <div class="title">
-      KUROSAWA
-    </div> 
-    <ul id="nav">
-      <li><a target="_blank" rel="noopener noreferrer" onclick="sukinahito();">あなたの好きな人は…？</a></li>
-      <li><a href="bio.html" target="_blank" rel="noopener noreferrer">カラスノエンドウ</a></li>
-      <li><a href="https://jp.quora.com/" target="_blank" rel="noopener noreferrer">Quora</a></li>
-      <li><a href="sendai.html" target="_blank" rel="noopener noreferrer">仙台</a></li>
-    </ul>
-  </header>
- 
+  <div class="main count">
+    <div class="free">自由なページ</div>
+    <div class="sumaho">
+      <h1>文字数カウンター</h1>
+      <textarea cols="100" rows="20" onkeyup="ShowLength(value)"></textarea>
+      <p id="length">0文字</p>
+    </div>
+  </div>
+  <div class="main">
+    
+    <h1>メニュー一覧</h1>
+    <div class="dish">
+      <h2>スタミナ丼</h2>
+        <img src="IMG_4517.JPG" class="picture">
+      <h3>材料</h3>
+      <h4>
+        <li>豚肉</li>
+        <li>ニラ</li>
+        <li>にんにく</li>
+        <li>卵黄</li>
+      </h4>
+    </div>
+    <div class="dish">
+      <h2>スタミナラーメン</h2>
+        <img src="IMG_4441.JPG" class="picture">
+      <h3>材料</h3>
+      <h4>
+        <li>ほうれん草入り麺</li>
+        <li>白菜</li>
+        <li>人参</li>
+        <li>豚肉</li>
+      </h4>
+    </div>
+    <div class="dish">
+      <h2>節系ラーメン</h2>
+        <img src="IMG_4502.JPG" class="picture">
+      <h3>材料</h3>
+      <h4>
+        <li>太麺</li>
+        <li>かつお節</li>
+        <li>チャーシュー</li>
+        <li>のり</li>
+      </h4>
+    </div>
+    <div class="dish">
+      <h2>親子丼</h2>
+        <img src="IMG-4160.jpg" class="picture">
+      <h3>材料</h3>
+      <h4>
+        <li>鶏もも肉</li>
+        <li>玉ねぎ</li>
+        <li>卵</li>
+        <li>白米</li>
+      </h4>
+    </div>
+    <div class="dish">
+      <h2>親子丼</h2>
+        <img src="IMG-4160.jpg" class="picture">
+      <h3>材料</h3>
+      <h4>
+        <li>鶏もも肉</li>
+        <li>玉ねぎ</li>
+        <li>卵</li>
+        <li>白米</li>
+      </h4>
+    </div>
+    <div class="dish">
+      <h2>回鍋肉</h2>
+        <img src="IMG_4506.JPG" class="picture">
+      <h3>材料</h3>
+      <h4>
+        <li>豚肉</li>
+        <li>キャベツ</li>
+        <li>ピーマン</li>
+        <li>ネギ</li>
+      </h4>
+    </div>
+  
+  </div>
+  
 </body>
 </html>
